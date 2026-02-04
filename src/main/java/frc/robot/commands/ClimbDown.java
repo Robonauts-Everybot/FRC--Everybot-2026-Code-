@@ -23,7 +23,7 @@ public class ClimbDown extends Command {
   @Override
   public void initialize() {
     climberSubsystem
-        .setClimber(CLIMBER_MOTOR_UP_PERCENT);
+        .setClimber(CLIMBER_MOTOR_DOWN_PERCENT);
   }
 
   // Called every time the scheduler runs while the command is scheduled. This
